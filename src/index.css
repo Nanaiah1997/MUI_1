@@ -5,9 +5,15 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #192e49;
+  color: #ffffff00;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+::-webkit-scrollbar { width: 5px;}
+*::-webkit-scrollbar-track { background-color: black;}
+*::-webkit-scrollbar-thumb {background: #3ddf87;border-radius: 2px}
